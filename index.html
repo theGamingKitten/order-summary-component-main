@@ -9,30 +9,30 @@
   <title>Frontend Mentor | Order summary card</title>
 </head>
 
-<body class="font-red-hat-display bg-pale-blue bg-background-mobile md:bg-background-desktop">
+<body class="font-red-hat-display bg-pale-blue bg-background-mobile bg-contain bg-no-repeat md:bg-background-desktop">
 <main class="flex items-center justify-center min-h-[100vh]">
-  <div class="w-5/6 text-center rounded-2xl bg-white max-w-96">
+  <div class="w-[87%] text-center rounded-3xl bg-white max-w-[450px]">
 
-  <img class="border rounded-t-2xl" src="./src/images/illustration-hero.svg" alt="A girl dancing to music">
+  <img class="rounded-t-3xl" src="./src/images/illustration-hero.svg" alt="A girl dancing to music">
 
-  <div class="p-4 flex flex-col gap-2 items-center">
-    <h1 class="my-3 text-2xl text-center font-[900]">Order Summary</h1>
+  <div class="p-4 flex flex-col gap-2 items-center md:p-8">
+    <h1 class="my-3 text-xl text-center font-black md:text-2xl">Order Summary</h1>
 
-    <p class="text-desaturated-blue w-11/12">
+    <p class="font-medium text-desaturated-blue w-10/12">
     You can now listen to millions of songs, audiobooks, and podcasts on any 
     device anywhere you like!</p>
 
-    <div class="w-11/12 my-6 flex flex-row items-center justify-between">
-      <img src="./src/images/icon-music.svg" alt="icon of a note">
-      <div>
-        <span class="font-black">Annual Plan</span>
-        <span class="text-desaturated-blue block">$59.99/year</span>
+    <div class="w-11/12 my-5 grid grid-cols-4 rounded-lg bg-very-pale-blue p-3 md:p-4">
+      <img class="place-self-start md:place-self-center" src="./src/images/icon-music.svg" alt="icon of a note">
+      <div class="col-span-2 place-self-start">
+        <span class="text-sm font-black md:text-base">Annual Plan</span>
+        <span class="text-sm font-bold text-desaturated-blue block md:text-base">$59.99/year</span>
       </div> 
-      <a class="text-dark-blue underline font-bold text-sm hover:cursor-pointer" href="#">Change</a>
+      <a class="text-bright-blue underline font-black text-xs place-self-center hover:cursor-pointer md:text-sm" href="#">Change</a>
     </div>
 
-    <button class="bg-bright-blue text-white font-bold p-4 w-11/12 border rounded-lg hover:bg-hover-purple hover:cursor-pointer">Proceed to Payment</button>
-    <span class="my-3 block text-desaturated-blue font-bold hover:cursor-pointer hover:text-dark-blue">Cancel Order</span> 
+    <button class="shadow-[0_10px_10px_3px_rgba(59,40,226,0.2)] bg-bright-blue text-white text-sm font-bold p-4 w-11/12 border rounded-xl hover:bg-hover-purple hover:cursor-pointer">Proceed to Payment</button>
+    <span class="my-4 block text-desaturated-blue text-sm font-black hover:cursor-pointer hover:text-dark-blue">Cancel Order</span> 
   </div>
 
   </div>
@@ -40,7 +40,7 @@
 
 <footer class="w-full text-xs text-center fixed bottom-[0]">
   Challenge by <a href="https://www.frontendmentor.io?ref=challenge" class="text-bright-blue" target="_blank">Frontend Mentor</a>. 
-  Coded by <a class="text-bright-blue" href="#">theGamingKitten</a>.
+  Coded by <a class="text-bright-blue" href="https://www.frontendmentor.io/profile/theGamingKitten">theGamingKitten</a>.
 </footer>
    
 </body>
